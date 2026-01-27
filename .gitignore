@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual Environments (where libraries are installed)
+venv/
+env/
+.venv/
+
+# Streamlit Secrets (CRITICAL: Protects your API Key)
+.streamlit/secrets.toml
+
+# OS System Files
+.DS_Store
+Thumbs.db
+
+# IDE Settings (VS Code, etc.)
+.vscode/
+*.json
