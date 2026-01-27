@@ -24,9 +24,10 @@ AI Health Architect is an intelligent, web-based application designed to democra
  the Repository**
 1. **Clone
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/Mani-Bhushan354/Utilizing-LLMs-for-Hyper-Personalized-Diet-Workout-Plans.git
    cd ai-health-architect
 
    **Run the Application**
    Standard command:
+
    python -m streamlit run app.py
