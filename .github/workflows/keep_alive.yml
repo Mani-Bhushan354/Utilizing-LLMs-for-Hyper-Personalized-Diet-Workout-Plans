@@ -1,0 +1,15 @@
+name: Keep App Awake
+
+on:
+  schedule:
+    # Runs every 30 minutes (to keep the app active)
+    - cron: "*/30 * * * *"
+  workflow_dispatch: # Allows you to manually trigger it for testing
+
+jobs:
+  ping_url:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping URL
+        run: |
+          curl https://utilizing-llms-for-hyper-personalized-diet-workout-plans-vqevz.streamlit.app/
